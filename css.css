@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 100vh;
+    background-color: rgb(180, 122, 235);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.main{
+    height: 500px;
+    width: 500px;
+    box-shadow: 3px 3px 4px rgb(0,0,0,0.3);
+    overflow: hidden;
+}
+.main img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform-origin: center center;
+}
